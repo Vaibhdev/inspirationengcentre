@@ -1,0 +1,231 @@
+.body1{
+    background: url(https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+    width:500px;
+    height:1500px;
+    color: rgb(52, 149, 149);
+    opacity: 1;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    display:inline-block;
+    position:absolute;
+}
+.left img{
+    width: 150px;
+    height: 90px;
+}
+nav{ 
+    display: inline-block;
+    position:absolute;
+    top: 0px;
+    color:rgb(24, 21, 63);
+    background-color:black;
+    width: 1360px;
+    height:90px;
+}
+nav ul{
+    list-style-type: none;
+    width:700px;
+    margin-left: 400px;
+    display:flex;
+}
+nav ul li{
+    position:relative;
+    margin: 15px;
+}
+nav ul li a{
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding:0px;
+    color: rgb(220, 107, 115);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(159, 77, 77);
+}
+a.active{
+    color: rgb(231, 47, 47);
+}
+section{
+    width:1200px;
+    height: 500px;
+    padding:100px;
+    margin: 3px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hola{
+    display:flex;
+    flex-direction: row;
+
+}
+.hola div{
+    color: yellow;
+    margin: 10px;
+    padding: 10px;
+    width:300px;
+    background-color: rgb(49, 26, 87);
+    box-shadow: 4px 4px 3px black, 5px 5px 3px red;
+    animation-name:lk;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+}
+.hola div p{
+    display:flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.hola div h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 3px 3px green ;
+    animation-name:hs;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+}
+.jo{
+    display: none;
+}
+nav ul li:hover .jo{
+    display:block;
+    position:absolute;
+    background: rgb(31, 6, 42);
+    margin-top: 15px;
+    margin-bottom:-15px;
+    margin-right: 10px;
+    width: 150px;
+}
+nav ul li:hover>.jo ul{
+    display: block;
+    color: rgb(141, 111, 65);
+    margin: 5px;
+    padding: 5px;
+}
+nav ul li:hover>.jo ul li{
+    width:100px;
+    padding: 10px;
+    color: rgb(141, 111, 65);
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+nav ul li :hover>.jo ul li a{
+    color: rgb(141, 111, 65);
+}
+nav ul li:hover>.jo ul li:last-child{
+     border-bottom: none;
+}
+.pu{
+    list-style: none;
+    padding: 0;
+}
+.pu p{
+    margin-bottom: 15px;
+}
+.pu li{
+    margin-left: 67px;
+    text-align: left;
+}
+.im{
+    margin-top: 400px;
+    position:absolute;
+    width: 100%;
+}
+.im img{
+    height: 500px;
+    width: 1000px;
+}
+@keyframes lk{
+    0%{
+        width: 300px;
+        box-shadow:4px 4px 3px black, 5px 5px 3px red;
+     }
+     50%{
+        width: 500px;
+        box-shadow: 4px 4px 3px black, 5px 5px 3px red;
+     }
+     100%{
+        width: 700px;
+        box-shadow: 4px 4px 3px black, 5px 5px 3px yellow;
+     }
+}
+@keyframes hs{
+    from{
+        text-shadow: 3px 3px green ;
+    }
+    to{
+        text-shadow: 3px 3px red;
+    }
+}
+.sec{
+    background-color: #191919;
+    margin: 0px;
+    padding: 78px 0px;
+    width: 100%;
+    height: 1000px;
+}
+.sec img{
+    display: flex;
+    height: 400px;
+    width: 420px;
+    float: left;
+    margin-right: 400px;
+    margin-bottom: 400px;
+    justify-content: left;
+}
+.abt{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    font-size: 19px;
+    color: rgb(15, 20, 20);
+}
+.about-text h1{
+    color: orange;
+    font-size: 45px;
+}
+.about-text p{
+    color:aliceblue;
+    font-size: 30px;
+}
+.body3{
+    background-color: pink;
+    opacity: 1;
+
+}
+.con{
+    color: #191919;
+}
+.jpl{
+    margin: 10px;
+    padding: 10px;
+}
+.jpl a{
+    margin:10px;
+    font-size: 30px;
+}
+.t{
+    color: red;
+}
+.fa-telegram{
+    color: rgb(70, 144, 161);
+}
+.yu h2{
+    color: rgb(26, 79, 138)
+}
+.yu p{
+    font-size: 23px;
+}
